@@ -1,0 +1,35 @@
+#page_header{
+display: grid;
+grid-template-columns: 5vw 5vw 5vw;
+justify-items: start;
+align-content: center;
+background-color: brown;
+}
+
+#page_footer{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-items: center;
+align-content: center;
+background-color: blueviolet;
+}
+
+#page_main{
+background-color:chartreuse ;
+height: 70vh;
+}
+
+#page_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+    background-color: chartreuse;
+    height: 100%;
+}
+
+#image{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
